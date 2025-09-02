@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>     
-      <div>
-       
+      <div className='envolver_tudo'>
+       <div className='foto_bola'>
+
+       </div>
       </div>     
     </>
   )
