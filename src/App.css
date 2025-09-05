@@ -6,8 +6,8 @@
 }
 
 .envolver_tudo {
-  width: 350px;
-  height: 700px;
+  width: 550px;
+  height: 900px;
   background-color: rgb(124, 0, 0);
   border: 2px black solid;
   display: flex;
@@ -15,13 +15,24 @@
   align-items: center;
   text-align: center;
   border-radius: 20px;
+  flex-direction: column;
 }
 
 .foto_bola {
   width: 300px;
   height: 300px;
   background-image: url(https://rickandmortyapi.com/api/character/avatar/636.jpeg);
-  border-radius: 50%;
+  border-radius: 5px;
   border: 2px black solid;
   
 }
+
+.div_nome {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto1{
+  color: rgb(253, 253, 142);
+}
+
