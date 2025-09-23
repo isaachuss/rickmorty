@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
+
+useEffect ( () => {
+    fetch('https://rickandmortyapi.com/api/character/'+count)
+    .then(res => console.log(res.))
+    .catch(error => console.log('error'))
+  }, [count]);
 
   return (
     <>     
