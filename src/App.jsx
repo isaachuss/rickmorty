@@ -38,8 +38,9 @@ return (
       )}
 
       <div className="button-get">
-        <button className='button' onClick={() => setCount(count >= 826 ? 1 : count + 1)}>
+        <button className='button_top' onClick={() => setCount(count >= 826 ? 1 : count + 1)}>
           Gerar um novo personagem
+        
         </button>
       </div>
     </div>

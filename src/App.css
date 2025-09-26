@@ -16,6 +16,7 @@
   text-align: center;
   border-radius: 20px;
   flex-direction: column;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .foto_bola {
@@ -24,12 +25,14 @@
   background-image: url(https://rickandmortyapi.com/api/character/avatar/636.jpeg);
   border-radius: 20px;
   border: 2px black solid;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   
 }
 
 .div_nome {
   display: flex;
   flex-direction: column;
+  
 }
 
 .texto1{
@@ -38,8 +41,11 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+  text-shadow: 0px 7px 12px rgba(0,0,0,0.6);
+  
 }
 
 .img{
    border-radius: 20px;
 }
+
