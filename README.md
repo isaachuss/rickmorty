@@ -1,1 +1,2 @@
-trabalho da API do rick and morty, primeiro vou fazer apenas a parte visual
+trabalho da API do rick and morty, primeiro vou fazer apenas a parte visual e depois integrar a API no codigo, de acordo com cada atributo como: nome, genero, especie etc...
+
