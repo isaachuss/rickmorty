@@ -17,6 +17,7 @@ useEffect(() => {
 
 return (
   <>
+  
     <div className='envolver_tudo'>
       {character && (
         <>
@@ -37,11 +38,12 @@ return (
       )}
 
       <div className="button-get">
-        <button className='button' onClick={() => setCount(count + 1)}>
+        <button className='button' onClick={() => setCount(count >= 826 ? 1 : count + 1)}>
           Gerar um novo personagem
         </button>
       </div>
     </div>
+    
   </>
 );
 }
